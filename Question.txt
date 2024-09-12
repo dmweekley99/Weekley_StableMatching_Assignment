@@ -1,0 +1,28 @@
+Question 1:
+
+    Decide whether you think the following statement is true or false. If it is true, give a brief explanation. 
+    If false, give a counterexample.
+        
+        True or False? In every instance of the stable matching problem, there is a stable matching 
+        containing a pair (m, w) such that m is ranked first on the preference list of w and w is 
+        ranked first on the preference list of m.
+
+    
+    ANSWER:
+    
+        I believe that the answer is False. An example of this can be made through the Hogwarts scenrio you provided.
+
+        Imagine you had four new students named Sam, Tom, Jill, and Blake. Their preferences are as follows:
+            Sam: Gryfindor, Slytherin, Hufflepuff, Ravenclaw
+            Tom: Slytherin, Hufflepuff, Ravenclaw, Gryfindor
+            Jill: Gryfindor, Hufflepuff, Ravenclaw, Slytherin
+            Blake: Gryfindor, Hufflepuff, Slytherin, Ravenclaw
+
+        The house preferences are:
+            Gryfindor: Tom, Sam, Jill, Blake
+            Slytherin: Jill, Sam, Tom, Blake
+            Ravenclaw: Blake, Sam, Tom, Jill
+            Hufflepuff: Tom, Sam, Jill, Blake
+
+        No matter how the individuals are picked in this scenrio, no house/student match will be 1st on each other's list. If Gryfindor
+        gets Tom, he would rather go to Slytherin. As well as, if Gryfindor gets anyone but Tom, they will not be getting their priority pick either.
